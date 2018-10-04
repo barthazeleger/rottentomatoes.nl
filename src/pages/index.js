@@ -1,12 +1,24 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 
 const IndexPage = () => (
   <Layout>
-    <h1>Dag luitjes</h1>
-    <Link to="/page-2/"></Link>
+    <h1>This domain is for sale, make an offer!</h1>
+  <form name="contact" netlify>
+  <p>
+    <label>Name <input type="text" name="name" /></label>
+  </p>
+  <p>
+    <label>Email <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Offer <input type="text" name="offer" /></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
   </Layout>
 )
 
