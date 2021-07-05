@@ -20,7 +20,8 @@ const IndexPage = () => (
   </p>
 </form>
   </Layout>
-  
+)
+
   document.querySelector("form").addEventListener("submit", handleSubmit);
 
 const handleSubmit = (e) => {
@@ -34,6 +35,5 @@ const handleSubmit = (e) => {
   }).then(() => console.log('Form successfully submitted')).catch((error) =>
     alert(error))
 }
-)
 
 export default IndexPage
