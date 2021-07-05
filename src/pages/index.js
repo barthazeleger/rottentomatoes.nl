@@ -5,7 +5,7 @@ import Layout from '../components/layout'
 const IndexPage = () => (
   <Layout>
     <h1>This domain is for sale, make an offer!</h1>
-  <form name="contact" netlify>
+  <form name="contact" method="POST" data-netlify="true">
   <p>
     <label>Name <input type="text" name="name" /></label>
   </p>
